@@ -1,0 +1,118 @@
+.maincontainer{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: rgb(143, 140, 140);
+    background-size: cover;
+ }
+
+ h4{
+     text-align: center;
+     color:black;
+ }
+
+ .caja-container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     color: red;
+     background-color: lightgray;
+     width: 400px;
+     height: 250px;
+     border-radius: 30px;
+     box-shadow: 0px 1px 5px 0px red;
+ }
+ 
+ h3{
+     text-align: center;
+     margin-bottom:10px;
+ }
+ .titulo-register{
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+ }
+ 
+ .mainregister{
+     display:flex;
+     background-color: lightgray;
+     width: 500px;
+     border-radius: 30px;
+     box-shadow: 0px 1px 5px 0px red;
+     flex-direction: column;
+     text-align: center;
+     align-items: stretch;
+ 
+ }
+ .register{
+     display:flex;
+     justify-content: center;
+ }
+ .fullWhith {
+     display: flex;
+     align-items: center;
+     width: 90%;
+     height: 40px;
+     border-radius: 30px;
+     align-content:center;
+     box-shadow: 0px 1px 5px 0px red;
+     border-color: red;
+     text-align: center;
+ 
+ }
+ .division1{
+     display:flex;
+     justify-content: space-around;
+ } 
+ 
+ * {
+     font-family: cursive;
+ }
+ .olvido{
+     font-size:70%;
+     text-align:center;
+ }
+ 
+ .boton{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     background-color: red;
+     color: white;
+     padding: 10px 10px;
+     border-color:rgb(0, 0, 0);
+     border-radius: 30px;
+     margin-top:20px;
+     margin-bottom:10px;
+ 
+ }
+ .logo-register{
+     display:flex;
+     padding:5px;
+     width:15%;
+     border-radius: 200px;
+     border-color: black;
+     margin-bottom: 3px;
+     margin-top:3px;
+     margin-left:30px;
+     flex-direction:row;
+     align-items: center;
+     text-align: center;
+ }
+ .posicion{
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ 
+ .caja-container{
+     display:flex;
+     justify-content: flex-start;
+     align-items: center;
+ }
+ input[type="submit"]:active{
+     transform: scale(0,9);
+ }
+ 
